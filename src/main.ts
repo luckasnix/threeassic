@@ -56,7 +56,7 @@ scene.add(directionalLight);
 
 const camera = new PerspectiveCamera(
   75,
-  window.innerWidth / window.innerHeight,
+  globalThis.innerWidth / globalThis.innerHeight,
   1,
   100,
 );
@@ -73,7 +73,7 @@ const updateViewportSize = () => {
   renderer.setSize(innerWidth, innerHeight);
 };
 updateViewportSize();
-window.addEventListener("resize", updateViewportSize);
+globalThis.addEventListener("resize", updateViewportSize);
 
 const timer = new Timer();
 
