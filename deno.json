@@ -16,9 +16,9 @@
   },
   "imports": {
     "@dimforge/rapier3d": "npm:@dimforge/rapier3d@0.20.0",
-    "@types/three": "npm:@types/three@0.185.0",
-    "three": "npm:three@0.185.0",
-    "three-gamepad-controls": "npm:three-gamepad-controls@0.12.1",
-    "vite": "npm:vite@8.1.2"
+    "@types/three": "npm:@types/three@0.185.4",
+    "three": "npm:three@0.185.1",
+    "three-gamepad-controls": "npm:three-gamepad-controls@0.22.0",
+    "vite": "npm:vite@8.2.1"
   }
 }
