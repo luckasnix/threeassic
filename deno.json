@@ -3,7 +3,19 @@
   "tasks": {
     "dev": "deno run -A npm:vite",
     "build": "deno check && deno run -A npm:vite build",
+    "desktop": "deno desktop .",
     "preview": "deno run -A npm:vite preview"
+  },
+  "desktop": {
+    "app": {
+      "name": "Threeassic"
+    },
+    "backend": "cef",
+    "output": {
+      "macos": "./dist-desktop/macos/Threeassic.app",
+      "windows": "./dist-desktop/windows/Threeassic",
+      "linux": "./dist-desktop/linux/threeassic"
+    }
   },
   "compilerOptions": {
     "lib": ["ES2023", "DOM"],
