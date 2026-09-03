@@ -8,7 +8,12 @@
   },
   "desktop": {
     "app": {
-      "name": "Threeassic"
+      "name": "Threeassic",
+      "icons": {
+        "windows": "./public/favicon.ico",
+        "linux": "./public/android-chrome-512x512.png",
+        "macos": "./public/android-chrome-512x512.png"
+      }
     },
     "backend": "cef",
     "output": {
