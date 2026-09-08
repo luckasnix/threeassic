@@ -3,6 +3,12 @@
   "fmt": {
     "proseWrap": "never"
   },
+  "lint": {
+    "exclude": ["dist/", "dist-desktop/"],
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
   "nodeModulesDir": "auto",
   "tasks": {
     "dev": "deno run -A npm:vite",
