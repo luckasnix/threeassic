@@ -30,3 +30,7 @@ deno task preview
 # Run the desktop application
 deno task desktop
 ```
+
+## 📄 License
+
+Licensed under the [MIT License](./LICENSE).
