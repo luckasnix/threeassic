@@ -1,5 +1,8 @@
 {
   "license": "MIT",
+  "fmt": {
+    "proseWrap": "never"
+  },
   "nodeModulesDir": "auto",
   "tasks": {
     "dev": "deno run -A npm:vite",
