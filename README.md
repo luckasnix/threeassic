@@ -33,4 +33,4 @@ deno task desktop
 
 ## 📄 License
 
-Licensed under the [MIT License](./LICENSE).
+Licensed under the [MIT License](./LICENSE.md).
